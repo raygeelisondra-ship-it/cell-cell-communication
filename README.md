@@ -56,8 +56,6 @@
 
 ## Validate One Molecular Interaction in IntAct
 
-## Part E. Validate One Molecular Interaction in IntAct
-
 * **Selected Protein Pair:** PYY (Peptide YY) and NPY2R (Neuropeptide Y Receptor Type 2).
 * **Interacting Molecules & Organism:** The interaction is curated for *Homo sapiens* proteins, showing PYY centrally connected to NPY2R, NPY1R, and other associated proteins.
 * **Experimental Evidence & Metrics:**

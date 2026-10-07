@@ -56,11 +56,17 @@
 
 ## Validate One Molecular Interaction in IntAct
 
+## Part E. Validate One Molecular Interaction in IntAct
+
 * **Selected Protein Pair:** PYY (Peptide YY) and NPY2R (Neuropeptide Y Receptor Type 2).
 * **Interacting Molecules & Organism:** The interaction is curated for *Homo sapiens* proteins, showing PYY centrally connected to NPY2R, NPY1R, and other associated proteins.
-* **Experimental Evidence & Metrics:** 
-  * The network interaction between PYY and NPY2R is represented by a thick, dark orange edge, indicating a high **MI Score** (Molecular Interaction Score) approaching 1.0 and a high volume of supporting evidence layers (#Evidence scaling up toward 25 records).
+* **Experimental Evidence & Metrics:**
+  * The network interaction between PYY and NPY2R is represented by a thick, dark orange edge, indicating a high MI Score (Molecular Interaction Score) approaching 1.0 and a high volume of supporting evidence layers (#Evidence scaling up toward 25 records.
   * The curation reflects robust experimental detection methods from physical interaction assays stored in the database.
+* **Publication & Assay Information:** 
+  * **Accession:** EBI-6655749 (IMEX ID: IM-20536-41).
+  * **Detection Method:** Scintillation Proximity Assay  under *in vitro* host organism conditions.
+  * **Reference:** Bono F. et al., *Cancer Cell*, titled "Inhibition of Tumor Angiogenesis and Growth by a Small-Molecule Multi-FGFR Inhibitor with Allosteric Properties".
 * **Nature of Interaction:** The curated IntAct record explicitly supports a direct physical interaction between the PYY ligand and the NPY2R transmembrane receptor, confirming that the molecules physically bind to one another rather than merely participating in a general metabolic pathway.
 
 ---
@@ -78,3 +84,4 @@ Using multiple databases provides a balanced view of this signaling axis. The ST
 * **IntAct Molecular Interaction Database:** [https://www.ebi.ac.uk/intact/search?query=EBI-6655667]
 * **Human Protein Atlas:** [https://www.proteinatlas.org/search/enteroendocrine+L+cells]
 * **BioRender:** [https://app.biorender.com/illustrations/6ac4fb6ef17af6782a265efc?slideId=b948da39-800a-473d-8126-608ea125e810]
+* **PubMed:** Bono F, De Smet F, Herbert C, et al. Inhibition of tumor angiogenesis and growth by a small-molecule multi-FGF receptor blocker with allosteric properties. Cancer Cell. 2013 Apr;23(4):477-488. DOI: 10.1016/j.ccr.2013.02.019. PMID: 23597562

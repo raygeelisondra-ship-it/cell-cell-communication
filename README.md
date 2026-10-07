@@ -70,9 +70,11 @@
 ---
 
 ## Final Model and Interpretation
-Following nutrient ingestion, L-cells synthesize and secrete Peptide YY (PYY) into the local extracellular environment. PYY acts as a signaling ligand that binds specifically to the NPY2R receptor on receiver cells. Upon binding, NPY2R activates intracellular inhibitory G-protein alpha subunits, specifically GNAI1 and GNAI2, which inhibit adenylyl cyclase and modulate downstream cellular activity, such as regulating gut motility and suppressing neuronal firing.
+Following nutrient intake, enteroendocrine L-cells in the colon release the hormone Peptide YY (PYY) into the extracellular space. PYY acts as a signaling molecule that binds specifically to the NPY2R receptor on enteric neurons. Upon binding, NPY2R activates internal inhibitory G-proteins (GNAI1 / GNAI2) and beta-gamma subunits (GNB1 / GNG2), which block adenylate cyclase activity and reduce neuronal firing through downstream pathways like POMC. 
 
-Using multiple databases provides a balanced view of this signaling axis. The STRING database maps functional associations, highlighting how these proteins work together in broader neuroendocrine regulatory pathways. However, because STRING edges represent functional links rather than guaranteed contact, IntAct data is used to confirm direct physical binding between interacting molecules. Overall, this integrated approach connects tissue-level physiological responses to precise molecular interactions, creating a robust, evidence-based model of peptide hormone signaling.
+Inhibiting this neuronal activity induces the "ileal brake" effect, which slows down food movement through the digestive tract. This slowdown is essential for digestion because it allows more time for nutrient absorption, prevents rapid gastric emptying, suppresses appetite to signal fullness, and helps maintain energy balance after a meal.
+
+Combining multiple databases gives a complete view of this cellular pathway. The STRING database shows functional links, mapping how these proteins cooperate in broad regulatory networks. Because STRING tracks functional associations rather than physical contact, IntAct data is used to verify direct molecular binding. Together, this multi-database approach links cellular mechanisms to whole-body digestive responses, building a clear and evidence-based model of hormone signaling.
 
 ---
 

@@ -25,19 +25,43 @@
 
 ---
 
-## OmniPath Findings
-* OmniPath provides curated directional signaling data showing the relationship between the extracellular ligand PYY and its cognate receptor NPY2R.
+## The Receptor and Receiver Cell
+
+* **OmniPath Findings:** 
+  * Searching OmniPath for the ligand PYY (P10082) shows direct cell-to-cell signaling connections with several receptors, most notably **NPY2R** backed by 17 reference sources, as well as NPY4R, NPY5R, and NPY1R.
+* **Selected Receptor:** NPY2R (Neuropeptide Y Receptor Type 2).
+* **Selected Receiver Cell:** Enteric neuron / local target gut cell.
+* **Supporting Evidence:** Human Protein Atlas and single-cell gene records show that NPY2R is strongly expressed in enteric neurons, confirming it is a functional receptor for gut hormone signaling.
+* **Signaling Context:** Postprandial endocrine regulation of gut motility and energy balance.
+
+### Functional interpretation
+* The enteroendocrine L-cell produces Peptide YY (PYY), which can signal through NPY2R on the enteric neuron in the context of postprandial metabolic and neuroendocrine regulation.”
+---
+
+##  Exploring the Receptor-Centered Network in STRING
+
+* **Network Overview:** 
+  * The STRING network was generated using *Homo sapiens* data, centered on the receptor **NPY2R**, and includes the ligand **PYY** along with key interacting/signaling proteins (NPY, PPY, GNAI1, GNAI2, GNB1, GNG2, POMC, PRPH2, and TPR).
+  * The network size is kept concise (around 10 connected nodes) for straightforward biological interpretation.
+
+* **Enriched Pathway / Biological Process:** 
+  * The network shows strong functional enrichment related to **G protein-coupled receptor signaling pathways**, peptide ligand binding, and the regulation of postprandial energy homeostasis and neuroendocrine signaling.
+
+* **Connecting Proteins (Receptor Activation to Cellular Response):**
+  * **GNAI1 & GNAI2:** Inhibitory G-protein alpha subunits that couple directly with NPY2R to inhibit adenylyl cyclase activity.
+  * **GNB1 & GNG2:** Heterotrimeric G-protein beta and gamma subunits that form complexes with alpha subunits to modulate downstream ion channels.
+  * **POMC:** Downstream neuropeptide regulator involved in the central melanocortin system to regulate feeding behavior and energy balance.
 
 ---
 
-## STRING Network Interpretation
-* **Network Overview:** The STRING network links PYY and NPY2R to downstream intracellular proteins, including inhibitory G-protein subunits (GNAI1, GNAI2) and pathway effectors.
-* **Interpretation:** STRING highlights functional associations—meaning these proteins participate in shared biological processes—rather than automatically proving direct physical contact.
+## Validate One Molecular Interaction in IntAct
 
----
-
-## IntAct Validation
-* **Interaction Data:** IntAct provides experimental records confirming direct physical binding between interacting components in the signaling pathway.
+* **Selected Protein Pair:** PYY (Peptide YY) and NPY2R (Neuropeptide Y Receptor Type 2).
+* **Interacting Molecules & Organism:** The interaction is curated for *Homo sapiens* proteins, showing PYY centrally connected to NPY2R, NPY1R, and other associated proteins.
+* **Experimental Evidence & Metrics:** 
+  * The network interaction between PYY and NPY2R is represented by a thick, dark orange edge, indicating a high **MI Score** (Molecular Interaction Score) approaching 1.0 and a high volume of supporting evidence layers (#Evidence scaling up toward 25 records).
+  * The curation reflects robust experimental detection methods from physical interaction assays stored in the database.
+* **Nature of Interaction:** The curated IntAct record explicitly supports a direct physical interaction between the PYY ligand and the NPY2R transmembrane receptor, confirming that the molecules physically bind to one another rather than merely participating in a general metabolic pathway.
 
 ---
 
